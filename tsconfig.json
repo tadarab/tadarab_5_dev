@@ -1,0 +1,33 @@
+{ 
+  "compilerOptions": {
+    "target": "es5",
+    "baseUrl": "./",
+    "paths": {
+      "common/*": ["common/*"],
+      "modules/*": ["modules/*"],
+      "styles/*": ["styles/*"],
+      "pages/*": ["pages/*"],
+      "configurations/*": ["configurations/*"],
+      "validation rules/*": ["validation rules/*"],
+      "custom hooks/*": ["custom hooks/*"],
+      "typeRoots": ["node_modules/@types"],
+      "node_modules/*": ["node_modules/*"],
+    },
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "downlevelIteration": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "modules/_Shared/utils/fbPixel.js", "modules/_Shared/utils/pixel/facebook/pixel-1.js", "modules/_Shared/utils/pixel/facebook/pixel-1.js", "modules/_Shared/utils/pixel/facebook/pixel-1.js", "modules/_Shared/utils/pixel/facebook/pixel-1.js"],
+  "exclude": ["node_modules"]
+}

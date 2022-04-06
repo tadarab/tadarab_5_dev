@@ -1,0 +1,126 @@
+.mobile-checkout-bar {
+  background-color: white;
+  height: 11.5rem;
+  -webkit-box-shadow: 0 -0.781rem 3.281rem #00000014;
+          box-shadow: 0 -0.781rem 3.281rem #00000014;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 8;
+  display: none;
+}
+
+.mobile-checkout-bar__subscribe-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  text-transform: none;
+  font-size: 0.97rem;
+  font-weight: 700;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.625rem;
+  font-family: 'Almarai', sans-serif;
+  border: 0 !important;
+  background-color: var(--primary-red) !important;
+  border: 0.125rem solid var(--primary-red) !important;
+  padding: 0.9375rem 1.875rem;
+  border-radius: 1.5625rem;
+  width: 50rem;
+  height: 6.5rem;
+  margin-top: 0.4rem;
+}
+
+.mobile-checkout-bar__subscribe-btn:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.mobile-checkout-bar__subscribe-btn:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.mobile-checkout-bar__subscribe-btn:hover, .mobile-checkout-bar__subscribe-btn:active {
+  background-color: #9d151e !important;
+  border: 0.125rem solid #9d151e !important;
+}
+
+.mobile-checkout-bar__subscribe-btn svg {
+  width: 3.281rem;
+  height: 2.8rem;
+  margin-left: 0.3rem;
+}
+
+.mobile-checkout-bar__subscribe-btn span {
+  font-size: 2.188rem;
+  font-weight: 700;
+}
+
+.mobile-checkout-bar__subscribe-btn + div {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+
+.mobile-checkout-bar__course-card__price-box {
+  color: var(--dark-black);
+}
+
+.mobile-checkout-bar__course-card__price-box__price {
+  font-size: 3.438rem;
+  font-weight: 800;
+}
+
+.mobile-checkout-bar__course-card__price-box__currency {
+  font-size: 2.188rem;
+  font-weight: 700;
+}
+
+.mobile-checkout-bar__course-card__old-price-box--line-through {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: unset;
+      -ms-flex-pack: unset;
+          justify-content: unset;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-text-decoration: line-through var(--primary-red);
+          text-decoration: line-through var(--primary-red);
+}
+
+.mobile-checkout-bar__course-card__old-price-box {
+  color: var(--grey);
+  margin-top: -0.4rem;
+}
+
+.mobile-checkout-bar__course-card__old-price-box__price {
+  font-size: 2.031rem;
+  font-weight: 800;
+}
+
+.mobile-checkout-bar__course-card__old-price-box__currency {
+  font-size: 1.719rem;
+}
+/*# sourceMappingURL=mobile-checkout-bar.module.css.map */

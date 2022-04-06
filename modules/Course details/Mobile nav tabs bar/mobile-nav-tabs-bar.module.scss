@@ -1,0 +1,51 @@
+@import "../../../styles/mixins"; 
+
+.tabs-responsive-bar{
+    background-color: white;
+    height: 7.813rem;
+    box-shadow: 0 0.625rem 4.063rem #0000001A;
+    font-size: 2.188rem;
+    font-weight: 700; 
+    position: sticky;
+    width: 100%;
+    // top: 10rem;
+    z-index: 5;
+    // @include flex(center,space-around);
+    display: none;
+
+    a{
+        &:hover{
+        color: var(--grey); 
+        }
+        &:focus{
+            color: var(--dark-black);
+        }
+    }
+}
+
+.tabs-responsive-bar__list-item,
+.tabs-responsive-bar__list-item--active{
+    cursor: pointer;
+}
+.tabs-responsive-bar__list-item{
+    color: var(--grey); 
+    a{
+        &:hover{
+        color: var(--grey); 
+        }
+        &:focus{
+            color: var(--dark-black);
+        }
+    }
+}
+.tabs-responsive-bar__list-item--active{
+    color: var(--dark-black);
+    a{
+        &:hover{
+        color: var(--dark-black); 
+        }
+        &:focus{
+            color: var(--dark-black);
+        }
+    }
+}

@@ -1,0 +1,100 @@
+.course-details-section {
+  margin-top: 3.2rem;
+  width: 43rem;
+  height: 16rem;
+  padding-bottom: 2.5rem;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.course-details-section__title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--dark-black);
+  margin-bottom: 1rem;
+}
+
+.course-details-section__para {
+  color: var(--grey);
+}
+
+.course-details-section__read-more {
+  font-size: 1.125rem;
+  font-weight: 800;
+  width: 100%;
+  background-color: white;
+  color: #AF151F;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0.8rem 0rem 1rem 0;
+  cursor: pointer;
+  z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
+  -webkit-box-pack: unset;
+      -ms-flex-pack: unset;
+          justify-content: unset;
+}
+
+.course-details-section__read-more span {
+  margin-left: 0.5rem;
+}
+
+.course-details-section--fadeout-effect {
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(white));
+  background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, white 100%);
+  width: 100%;
+  bottom: 3rem;
+  height: 4rem;
+  pointer-events: none;
+}
+
+@media (max-width: 575px) {
+  .course-details-section {
+    margin-top: 15.156rem;
+    width: 100%;
+    height: 36rem;
+    padding-bottom: 6.25rem;
+  }
+  .course-details-section__title {
+    font-size: 3.15rem;
+    margin-bottom: 2.5rem;
+  }
+  .course-details-section__para {
+    font-size: 2.1875rem;
+  }
+  .course-details-section__read-more {
+    font-size: 2.8125rem;
+    font-weight: 800;
+    width: 100%;
+    bottom: -3rem;
+    right: 0;
+    padding: 2rem 0rem 2.5rem 0;
+    cursor: pointer;
+  }
+  .course-details-section__read-more span {
+    margin-left: 1.25rem;
+  }
+  .course-details-section__read-more svg {
+    width: 1.5625rem;
+    height: 0.9375rem;
+  }
+  .course-details-section--fadeout-effect {
+    position: absolute;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(white));
+    background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, white 100%);
+    width: 100%;
+    bottom: 2.5rem;
+    height: 10rem;
+    pointer-events: none;
+  }
+}
+/*# sourceMappingURL=course-details-section.module.css.map */
